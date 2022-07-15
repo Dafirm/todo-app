@@ -1,17 +1,17 @@
-import firebase from "./firebase";
 
-const firebaseApp = firebase.initializeApp({
-        apiKey: "AIzaSyBCYehyCD8UYbP0t6ZKZQN6p8QJ43IAsVo",
-        authDomain: "todo-ap-cp-bd528.firebaseapp.com",
-        databaseURL: "http://todo-app-cp.firebaseio.com",
-        projectId: "todo-ap-cp-bd528",
-        storageBucket: "todo-ap-cp-bd528.appspot.com",
-        messagingSenderId: "546618546691",
-        appId: "1:546618546691:web:7a84ef9da1b5b4f5cd0c36",
-        measurementId: "G-3PN0KDBSLV"
+ import firebase from './firebase';
 
-});
+  const firebaseApp = firebase.initializeApp({
+   
+    apiKey: "AIzaSyArqOeqld4DurkG8Vy6heC-ni8j29R06Lo",
+    authDomain: "dafirmproject.firebaseapp.com",
+    databaseURL: "https://dafirmproject.firebaseio.com",
+    projectId: "dafirmproject",
+    storageBucket: "dafirmproject.appspot.com",
+    messagingSenderId: "777158168417",
+    appId: "1:777158168417:web:caa734156cac07536abf20"
+      
 
-const db = firebaseApp.firestore();
-
- export default db ;
+  });
+  const db = firebaseApp.firestore();
+  export default db;
